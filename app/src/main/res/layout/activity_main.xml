@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical"
+    android:background="#2980b9">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Dzikir Anda Sudah.."
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="200dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_klik"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tekan Disini.."
+            android:background="#2c3e50"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:background="#2c3e50"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+</LinearLayout>
